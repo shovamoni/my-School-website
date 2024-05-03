@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <div id="flex-container">
+        <div class="n"></div>
+        <button type="button"  onclick="prev()">Previous</button>
+        <div class="p"></div>
+        <button type="button" onclick="next()">Next</button>
+    </div> 
+    
+</div>
+<script>
+    const mypic=["Wh.jpg" ,"Wh3.jpg"];
+    var i= 0;
+
+    function prev(){
+        if(i<=0) 
+        i=mypic.length;
+        i--;
+        document.getElementById('flex-container').style.backgroundImage='url(" ' +mypic[i] +'")';
+       
+    
+    }
+
+    function next(){
+
+        if(i>=0)
+        mypic.length;
+        i++;
+
+document.getElementById('flex-container').style.backgroundImage= 'url(" ' +mypic[i] +'")';
+
+
+}
+</script>
+
+
+    <div class="header">
+        <img src="./amm.jpg">
+
+    <div class="name">
+        <h1>Saiad Aminur Rahman Memorial International School, Nilphamari.</h1>
+        <h2>Education|Disciplin|Character</h2>
+        <h3>School Code:6655|Collage Code:8800|EIIN:123432</h3>
+    </div>
+   
+</div>
+<div class="navbar">
+
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Admission Now</a>
+</div>
+<div class="c">
+<marquee><h1>Admission from Nursury to class Xl</h1></marquee>
+</div>
+
+    <div class="m">
+        <h1>English Cadet Academy</h1>
+        <p>English Cadet Academy helps students to take preparation for admission exam especially in cadet colleges, reputed schools & colleges and also for future higher education.
+            
+            Over the period of 30 years, Shahid Cadet Academy ( in pioneer it was Shahid Cadet coaching center) provides proper education with the strategic learning method and that’s why in every year the maximum number of students get admission in all Cadet Colleges from this academy. And rest of all students get admission in all the reputed Schools like RAJUK Uttara model School & College, Ideal Model School, Residential model College, BAF Shaheen School, Viqarunnisa Noon school, Willes Little Flower School, etc. in Dhaka and country-wide reputed schools and Besides our own School success is Excellent in recent few years in every class. Our students are achieving Excellent results in P.S.C, J.S.C and S.S.C.
+            
+            All of our students make their academic result as outstanding and most of them start their professional career as level best sectors like Army and all Forces, Engineer, Doctor, IT, Law, Business, Social and Public Organizations and other areas in worldwide range with absolute responsibility.
+            
+            We have both Bangla and English version of education systems. We have excellent residential facilities and security. Boys and Girls residential hostels & campus are in separated building . Over the period of 30 years, Shahid Cadet Academy is playing the best role of for admission in cadet colleges.</p>
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#flex-container{
+    display: flex;
+    background-image: url('./img1.jpg');
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    background-repeat: no-repeat;
+    
+  }
+  h1{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .p{
+    flex:50%
+  }
+  button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    border-radius:10px;
+  }
+  button:hover{
+    background-color: rgb(165, 159, 159);
+  }
+
+
+
+
+
+
+
+
+.header{
+    position: relative;
+    background-image: url('./kid.jpg');
+    display: flex;
+    background-color:lightslategrey;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.a{
+   margin-left: 400px;
+}
+.a h2{
+    margin-left: 45px;
+    font-size: 28px;
+}
+.a h1{
+    font-size: 40px;
+}
+.a h3{
+    font-size: 25px;
+}
+img{
+    margin-left: 120px;
+}
+.navbar{
+    display: block;
+    padding: 2%;
+    background-color:hsl(0, 0%, 46%) ;
+    height: 15px;
+    width: 96%;
+}
+.navbar a{
+    font-size: 25px;
+    color: white;
+    margin-left: 80px;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+ a:hover{
+    background-color: aquamarine;
+    height: 20px;
+}
+  .zz img{
+    height: 600px;
+    width:900px;
+    margin-right: 500px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .zz{
+    display: flex;
+  }
+  .m{
+   padding-right: 10%;
+  }
+ .m p{
+    margin-left: 0;
+    font-size: 25px;
+    opacity: 0.5;
+  }
+  .c{
+    width: 100%;
+    color:whitesmoke;
+    background-color:darkslategray;
+    height: 70px;
+    width:100%;
+
+  }
